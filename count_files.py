@@ -8,7 +8,7 @@ import os
 import subprocess
 from os.path import join, getsize
 
-def count_files(dirroot = './'):
+def count_files(dirroot):
     """
     Count files in given directory/ies --> sourceDir
     """
@@ -21,8 +21,7 @@ def count_files(dirroot = './'):
     return(filescount)
 
 sourceDirs = sys.argv[1:]
-# print(sourceDir)
-# sourceDir = ['/home/arturwu/projects/python/2011/4/4', '/home/arturwu/projects/python/2011/4/1', '/home/arturwu/projects/python/2011/4/2']
+
 totalfc = 0
 fc = 0
 for arg in sourceDirs:
