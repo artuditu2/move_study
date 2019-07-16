@@ -17,3 +17,10 @@
         Jesli jako dni podamy 0, przeniesie caly miesiac
 
             example: ./move_rsync_study.py 2016 4 0 /mnt/worek/BACK_ONLINE/
+
+        16.07.2019
+        
+        możliwość rsyncowania kilku miesięcy
+        
+        gdy ostatnia liczba jest równa 0 --> sys.argv[-2], to poprzedzające ją liczby sys.argv[2:-2],
+        aż do roku sys.argv[1], są numerami miesięcy.
