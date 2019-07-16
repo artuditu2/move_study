@@ -1,0 +1,10 @@
+- czy jest plik z poprzedniego rsynca
+- przeczytaj parametry z linii komand
+- policz pliki w lokalizacji źródłowej
+- zsumuj wielkość plików
+- zrób rsynca
+- policz pliki w lokalizacji docelowej
+- zsumuj wielkość plików w lokalizacji docelowej
+- przesuń katalog źródłowy
+- zrób link symboliczny do miejsca docelowego
+- zapisz informacje do pliku
